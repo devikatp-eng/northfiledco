@@ -7,6 +7,14 @@ Original file is located at
     https://colab.research.google.com/drive/1f9NVB7CqT5ho2zKgIwBYSSbVn2FFzeAo
 """
 
+import pandas as pd
+import numpy as np
+import plotly.express as px
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+import warnings
+warnings.filterwarnings('ignore')
+
 pd.set_option('display.float_format', lambda x: f'{x:,.2f}')
 print('Libraries loaded.')
 
@@ -351,6 +359,8 @@ print("""
 - Awin attribution-window audit
 """)
 
+!pip install streamlit pyngrok pandas plotly openpyxl -q
+print("✅ Installed")
 
 from google.colab import files
 import os
