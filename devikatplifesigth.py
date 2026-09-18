@@ -359,8 +359,6 @@ print("""
 - Awin attribution-window audit
 """)
 
-!pip install streamlit pyngrok pandas plotly openpyxl -q
-print("✅ Installed")
 
 from google.colab import files
 import os
